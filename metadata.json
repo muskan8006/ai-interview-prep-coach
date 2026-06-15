@@ -1,0 +1,6 @@
+{
+  "name": "AI Interview Prep Coach",
+  "description": "An interactive, intelligent interview coach that generates custom role-specific questions and provides detailed evaluation, scores, and feedback.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
