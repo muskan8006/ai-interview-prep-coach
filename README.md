@@ -1,20 +1,31 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# AI Interview Prep Coach
 
-# Run and deploy your AI Studio app
+An AI-powered interview preparation platform built using Google AI Studio and deployed on Google Cloud Run.
 
-This contains everything you need to run your app locally.
+## Live Demo
 
-View your app in AI Studio: https://ai.studio/apps/01c303cb-02d9-4ca1-8496-4b2ed4b696b0
+https://ai-interview-prep-coach-881006405440.asia-southeast1.run.app
 
-## Run Locally
+## Features
 
-**Prerequisites:**  Node.js
+- Mock interview simulation
+- Technical and behavioral interview practice
+- Performance tracking dashboard
+- AI-powered feedback system
+- Responsive user interface
 
+## Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- React
+- TypeScript
+- Vite
+- Google AI Studio
+- Google Cloud Run
+
+## Installation
+
+```bash
+git clone https://github.com/YOUR_USERNAME/ai-interview-prep-coach.git
+cd ai-interview-prep-coach
+npm install
+npm run dev
