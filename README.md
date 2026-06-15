@@ -25,7 +25,7 @@ https://ai-interview-prep-coach-881006405440.asia-southeast1.run.app
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-interview-prep-coach.git
+git clone https://github.com/muskan8006/ai-interview-prep-coach.git
 cd ai-interview-prep-coach
 npm install
 npm run dev
