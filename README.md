@@ -1,20 +1,75 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# AI Interview Prep Coach
 
-# Run and deploy your AI Studio app
+An AI-powered interview preparation platform built using Google AI Studio and deployed on Google Cloud Run. The application helps users practice technical interviews, receive feedback, track progress, and simulate real interview scenarios.
 
-This contains everything you need to run your app locally.
+## Live Demo
 
-View your app in AI Studio: https://ai.studio/apps/01c303cb-02d9-4ca1-8496-4b2ed4b696b0
+https://ai-interview-prep-coach-881006405440.asia-southeast1.run.app
 
-## Run Locally
+## Features
 
-**Prerequisites:**  Node.js
+* Mock interview simulation
+* Role-based interview preparation
+* Technical and behavioral question practice
+* AI-generated feedback and evaluation
+* Interview progress tracking
+* Professional dashboard interface
+* Responsive design for desktop and mobile devices
 
+## Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+* Google AI Studio
+* Gemini 3.5 Flash
+* TypeScript
+* Vite
+* React
+* Google Cloud Run
+
+## Project Workflow
+
+1. Generated the application using Google AI Studio.
+2. Refined the UI and interview simulation flow.
+3. Tested the application functionality.
+4. Deployed the application on Google Cloud Run.
+5. Version controlled using Git and GitHub.
+
+## Screenshots
+
+Add screenshots of:
+
+* Dashboard
+* Interview Simulation
+* Results & Feedback Page
+
+## Local Setup
+
+```bash
+git clone https://github.com/YOUR_USERNAME/ai-interview-prep-coach.git
+
+cd ai-interview-prep-coach
+
+npm install
+
+npm run dev
+```
+
+The application will be available at:
+
+```bash
+http://localhost:5173
+```
+
+## Future Improvements
+
+* Real-time Gemini API integration
+* User authentication
+* Interview history storage
+* Personalized learning recommendations
+* Analytics dashboard
+* Exportable interview reports
+
+## Author
+
+Muskan
+
+Computer Science Student | AI & Software Development Enthusiast
